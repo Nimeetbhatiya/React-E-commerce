@@ -12,7 +12,7 @@ function Products({ product, onAddToCart }) {
       alignItems: "center",
       gap: "20px",
       padding: "20px",
-    //   backgroundColor: "#f8f9fa",
+      // backgroundColor: "#f8f9fa",
     }}>
       {product.map((prd, i) => (
         <div
@@ -47,7 +47,7 @@ function Products({ product, onAddToCart }) {
             }}
           />
           <h3 style={{ margin: "15px 0", color: "#333" }}>{prd.name}</h3>
-          <p style={{ color: "#666", fontSize: "16px" }}>${prd.price}</p>
+          <p style={{ color: "#666", fontSize: "18px" }}>${prd.price}</p>
           <button
             onClick={() => {onAddToCart(prd)
             }}
